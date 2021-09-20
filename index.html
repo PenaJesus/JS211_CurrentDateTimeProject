@@ -8,8 +8,44 @@
   <body>
     <h1>Hello World!</h1>
     <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
+    <div id="display-element">
+    <button onclick="displayDate()">DisplayDate</button>
+    <p id="display-element"></p></div>
+
+    <div id="NumberToString">
+    <button onclick="convertNumToString()">convertNumToString</button>
+    <input type="text" id="NumToString"></div>
+
+    <div class="addNum">
+      <button onclick="addTwoNumbers()" >Add Numbers</button>
+      <input type= "number" id="num1">
+      <input type= "number" id="num2">
+      <p id="addTwoNumbers"></p>
+    </div>
+    <div class="StringToNum">
+      <button onclick="convertStringNum()">String to number</button>
+      <input type="text" id="userNum">
+      <p id="Num">
+    </div>
+    <div>
+      <button onclick="">Data Types</button>
+      <input type="text">
+    </div>
+
+    <div>
+      <button onclick="oneIsNotTrue()" name="true">1 things is true</button>
+      <p id="1true"></p>
+    </div>
+
+    <div>
+      <button onclick="thisIsTrue()" name="true">2 things are true</button>
+      <p id="2true"></p>
+    </div>
+
+    <div>
+      <button onclick="thisIsNotTrue()">2 things not true</button>
+      <p id="2false"></p>
+    </div>
     <hr/>
   </body>
 </html>
